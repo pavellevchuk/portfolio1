@@ -8,11 +8,11 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #e0003b;
+  background-color: #E0E0E0;
   color: #fff; }
 
 ::selection {
-  background-color: #e0003b;
+  background-color: #E0E0E0;
   color: #fff; }
 
 ::-webkit-input-placeholder {
@@ -1459,7 +1459,7 @@ nav {
       nav a {
         margin: 5px 25px; } }
     nav a:hover {
-      color: #e0003b; }
+      color: #E0E0E0; }
 
 .white-menubar .menu-bar span {
   color: #fff; }
@@ -1469,7 +1469,7 @@ nav {
     color: white; }
 
 .dup-body {
-  background: #e0003b; }
+  background: #E0E0E0; }
 
 .dup-body-wrap {
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.2);
@@ -1498,7 +1498,7 @@ nav {
   padding-right: 60px;
   border-radius: 25px;
   background: transparent;
-  border: 1px solid #e0003b;
+  border: 1px solid #E0E0E0;
   color: #222222;
   display: inline-block;
   font-weight: 500;
@@ -1523,7 +1523,7 @@ nav {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s; }
   .primary-btn:hover {
-    background: #e0003b;
+    background: #E0E0E0;
     color: #fff; }
     .primary-btn:hover span {
       color: #fff;
@@ -1535,9 +1535,9 @@ nav {
       color: #fff; }
     .primary-btn.white:hover {
       background: #fff;
-      color: #e0003b; }
+      color: #E0E0E0; }
       .primary-btn.white:hover span {
-        color: #e0003b; }
+        color: #E0E0E0; }
 
 .banner-area {
   background: #fff; }
@@ -1572,7 +1572,7 @@ nav {
 .generic-banner {
   background: #fff; }
   .generic-banner.element-banner {
-    background: #e0003b; }
+    background: #E0E0E0; }
   .generic-banner .height {
     height: 550px; }
     @media (max-width: 767px) {
@@ -1595,12 +1595,13 @@ nav {
   position: relative;
   background: url(../img/studio-bg.jpg) no-repeat center center/cover; }
   .studio-area .overlay-bg {
-    background: rgba(224, 0, 59, 0.8); }
+    background: rgba(224, 224, 224, 0.8); }
   .studio-area .studio-thumb {
     border-radius: 3px;
     overflow: hidden;
     display: inline-block; }
   .studio-area .studio-content {
+    box-sizing: border-box;
     position: relative;
     border-radius: 0 5px 5px 0;
     background: #fff;
@@ -1667,7 +1668,7 @@ nav {
         color: #222222;
         font-weight: 300; }
     .achivement-area .single-achivement:hover .achivement-link {
-      background: #e0003b; }
+      background: #E0E0E0; }
       .achivement-area .single-achivement:hover .achivement-link i {
         color: #fff; }
 
@@ -1675,7 +1676,7 @@ nav {
   position: relative;
   background: url(../img/video-area-bg.jpg) no-repeat center center/cover; }
   .video-area .overlay-bg {
-    background: rgba(224, 0, 59, 0.8); }
+    background: rgba(224, 224, 224, 0.8); }
   .video-area .video-content {
     padding: 200px 0;
     text-align: center;
@@ -1697,7 +1698,7 @@ nav {
 .single-progressbar {
   background: #f9fcff; }
   .single-progressbar .progress-bar {
-    background: #e0003b;
+    background: #E0E0E0;
     height: 5px;
     line-height: 5px; }
 
@@ -1705,7 +1706,7 @@ nav {
   position: relative;
   background: url(../img/carousel-bg.jpg) no-repeat center center/cover; }
   .carousel-area .overlay-bg {
-    background: rgba(224, 0, 59, 0.8); }
+    background: rgba(224, 224, 224, 0.8); }
 
 .active-bottle-carousel {
   position: relative; }
@@ -1788,7 +1789,7 @@ nav {
   top: 50%;
   transform: translateY(-50%);
   right: 5px;
-  background: #e0003b;
+  background: #E0E0E0;
   color: #fff; }
   .subscription .primary-btn span {
     color: #fff; }
@@ -1816,9 +1817,17 @@ nav {
 
 .footer-widget-area {
   position: relative;
-  background: url(../img/f-bg.jpg) no-repeat center center/cover; }
+  background: url(../img/f-bg.jpg) no-repeat center center/cover;
+  display: flex;
+  justify-content: center; }
+  .footer-widget-area .row {
+    width: 90%;
+    align-items: center;
+    justify-content: center; }
+    .footer-widget-area .row li, .footer-widget-area .row h6 {
+      text-align: center; }
   .footer-widget-area .overlay-bg {
-    background: rgba(224, 0, 59, 0.8); }
+    background: rgba(224, 224, 224, 0.8); }
   .footer-widget-area .container {
     position: relative;
     z-index: 2; }
@@ -1876,13 +1885,13 @@ nav {
     background: #fff;
     border: 1px solid white; }
     .footer-social a:hover i {
-      color: #e0003b; }
+      color: #E0E0E0; }
 
 .about-generic-area {
   position: relative;
   background: url(../img/g-bg.jpg) no-repeat center center/cover; }
   .about-generic-area .overlay-bg {
-    background: rgba(224, 0, 59, 0.8); }
+    background: rgba(224, 224, 224, 0.8); }
   .about-generic-area .container {
     position: relative;
     z-index: 2; }
@@ -1902,5 +1911,8 @@ nav {
   margin-bottom: 10px; }
   .switch-wrap p {
     margin: 0; }
+
+.row {
+  justify-content: space-around; }
 
 /*# sourceMappingURL=main.css.map */

@@ -167,6 +167,7 @@
 		@include media-breakpoint-down(xs) {
 			margin-top: 30px;
 		}
+		box-sizing: border-box;
 		position: relative;
 		&:after {
 			content: "";
@@ -430,6 +431,16 @@
 .footer-widget-area {
 	position: relative;
 	background: url(../img/f-bg.jpg) no-repeat center center/cover;
+	display: flex;
+	justify-content: center;
+	.row{
+		width:90%;
+		align-items: center;
+		justify-content: center;
+		li,h6{
+			text-align: center;
+		}
+	}
 	.overlay-bg {
 		background: rgba($primary-color, .8);
 	}
@@ -539,4 +550,7 @@
 		margin: 0;
 	}
 }
-//----------- End Generic Page -------------//
+
+.row{
+	justify-content: space-around;
+}
