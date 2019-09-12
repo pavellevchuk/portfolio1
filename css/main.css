@@ -1545,29 +1545,31 @@ nav {
     .banner-area .fullscreen {
       height: 800px !important; } }
 
-@media (max-width: 767px) {
-  .banner-content {
-    margin-top: 100px; } }
-.banner-content h1 {
-  font-size: 42px;
-  font-weight: 600;
-  line-height: 1.15em;
-  margin-bottom: 20px; }
-  @media (max-width: 991px) {
-    .banner-content h1 {
-      font-size: 36px; } }
-  @media (max-width: 991px) {
-    .banner-content h1 br {
-      display: none; } }
-.banner-content p {
-  margin-bottom: 60px;
-  font-size: 16px; }
+.banner-content {
+  margin-bottom: 10px; }
   @media (max-width: 767px) {
-    .banner-content p {
-      margin-bottom: 20px; } }
-  @media (max-width: 991px) {
-    .banner-content p br {
-      display: none; } }
+    .banner-content {
+      margin-top: 100px; } }
+  .banner-content h1 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.15em;
+    margin-bottom: 20px; }
+    @media (max-width: 991px) {
+      .banner-content h1 {
+        font-size: 36px; } }
+    @media (max-width: 991px) {
+      .banner-content h1 br {
+        display: none; } }
+  .banner-content p {
+    margin-bottom: 60px;
+    font-size: 16px; }
+    @media (max-width: 767px) {
+      .banner-content p {
+        margin-bottom: 20px; } }
+    @media (max-width: 991px) {
+      .banner-content p br {
+        display: none; } }
 
 .generic-banner {
   background: #fff; }

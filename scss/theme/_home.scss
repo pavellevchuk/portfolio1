@@ -85,6 +85,7 @@
 	}
 }
 .banner-content {
+	margin-bottom:10px;
 	@include media-breakpoint-down(sm) {
 		margin-top: 100px;
 	}
